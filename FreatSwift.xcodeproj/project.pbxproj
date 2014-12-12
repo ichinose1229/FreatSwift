@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E1227D1A39F3EB004B3D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1227C1A39F3EB004B3D5E /* AppDelegate.swift */; };
+		50E1227F1A39F3EB004B3D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1227E1A39F3EB004B3D5E /* ViewController.swift */; };
+		50E122821A39F3EB004B3D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E122801A39F3EB004B3D5E /* Main.storyboard */; };
+		50E122841A39F3EB004B3D5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E122831A39F3EB004B3D5E /* Images.xcassets */; };
+		50E122871A39F3EB004B3D5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50E122851A39F3EB004B3D5E /* LaunchScreen.xib */; };
+		50E122931A39F3EB004B3D5E /* FreatSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E122921A39F3EB004B3D5E /* FreatSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E1228D1A39F3EB004B3D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E1226F1A39F3EB004B3D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E122761A39F3EB004B3D5E;
+			remoteInfo = FreatSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E122771A39F3EB004B3D5E /* FreatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E1227B1A39F3EB004B3D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E1227C1A39F3EB004B3D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50E1227E1A39F3EB004B3D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E122811A39F3EB004B3D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E122831A39F3EB004B3D5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50E122861A39F3EB004B3D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50E1228C1A39F3EB004B3D5E /* FreatSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreatSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E122911A39F3EB004B3D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E122921A39F3EB004B3D5E /* FreatSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreatSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E122741A39F3EB004B3D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E122891A39F3EB004B3D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E1226E1A39F3EB004B3D5E = {
+			isa = PBXGroup;
+			children = (
+				50E122791A39F3EB004B3D5E /* FreatSwift */,
+				50E1228F1A39F3EB004B3D5E /* FreatSwiftTests */,
+				50E122781A39F3EB004B3D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E122781A39F3EB004B3D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E122771A39F3EB004B3D5E /* FreatSwift.app */,
+				50E1228C1A39F3EB004B3D5E /* FreatSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E122791A39F3EB004B3D5E /* FreatSwift */ = {
+			isa = PBXGroup;
+			children = (
+				50E1227C1A39F3EB004B3D5E /* AppDelegate.swift */,
+				50E1227E1A39F3EB004B3D5E /* ViewController.swift */,
+				50E122801A39F3EB004B3D5E /* Main.storyboard */,
+				50E122831A39F3EB004B3D5E /* Images.xcassets */,
+				50E122851A39F3EB004B3D5E /* LaunchScreen.xib */,
+				50E1227A1A39F3EB004B3D5E /* Supporting Files */,
+			);
+			path = FreatSwift;
+			sourceTree = "<group>";
+		};
+		50E1227A1A39F3EB004B3D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E1227B1A39F3EB004B3D5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E1228F1A39F3EB004B3D5E /* FreatSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				50E122921A39F3EB004B3D5E /* FreatSwiftTests.swift */,
+				50E122901A39F3EB004B3D5E /* Supporting Files */,
+			);
+			path = FreatSwiftTests;
+			sourceTree = "<group>";
+		};
+		50E122901A39F3EB004B3D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E122911A39F3EB004B3D5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E122761A39F3EB004B3D5E /* FreatSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E122961A39F3EB004B3D5E /* Build configuration list for PBXNativeTarget "FreatSwift" */;
+			buildPhases = (
+				50E122731A39F3EB004B3D5E /* Sources */,
+				50E122741A39F3EB004B3D5E /* Frameworks */,
+				50E122751A39F3EB004B3D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreatSwift;
+			productName = FreatSwift;
+			productReference = 50E122771A39F3EB004B3D5E /* FreatSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E1228B1A39F3EB004B3D5E /* FreatSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E122991A39F3EB004B3D5E /* Build configuration list for PBXNativeTarget "FreatSwiftTests" */;
+			buildPhases = (
+				50E122881A39F3EB004B3D5E /* Sources */,
+				50E122891A39F3EB004B3D5E /* Frameworks */,
+				50E1228A1A39F3EB004B3D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E1228E1A39F3EB004B3D5E /* PBXTargetDependency */,
+			);
+			name = FreatSwiftTests;
+			productName = FreatSwiftTests;
+			productReference = 50E1228C1A39F3EB004B3D5E /* FreatSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E1226F1A39F3EB004B3D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ichinose Yuto";
+				TargetAttributes = {
+					50E122761A39F3EB004B3D5E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					50E1228B1A39F3EB004B3D5E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 50E122761A39F3EB004B3D5E;
+					};
+				};
+			};
+			buildConfigurationList = 50E122721A39F3EB004B3D5E /* Build configuration list for PBXProject "FreatSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E1226E1A39F3EB004B3D5E;
+			productRefGroup = 50E122781A39F3EB004B3D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E122761A39F3EB004B3D5E /* FreatSwift */,
+				50E1228B1A39F3EB004B3D5E /* FreatSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E122751A39F3EB004B3D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E122821A39F3EB004B3D5E /* Main.storyboard in Resources */,
+				50E122871A39F3EB004B3D5E /* LaunchScreen.xib in Resources */,
+				50E122841A39F3EB004B3D5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E1228A1A39F3EB004B3D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E122731A39F3EB004B3D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E1227F1A39F3EB004B3D5E /* ViewController.swift in Sources */,
+				50E1227D1A39F3EB004B3D5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E122881A39F3EB004B3D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E122931A39F3EB004B3D5E /* FreatSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E1228E1A39F3EB004B3D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E122761A39F3EB004B3D5E /* FreatSwift */;
+			targetProxy = 50E1228D1A39F3EB004B3D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E122801A39F3EB004B3D5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E122811A39F3EB004B3D5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E122851A39F3EB004B3D5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E122861A39F3EB004B3D5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E122941A39F3EB004B3D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E122951A39F3EB004B3D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E122971A39F3EB004B3D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreatSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50E122981A39F3EB004B3D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreatSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50E1229A1A39F3EB004B3D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreatSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreatSwift.app/FreatSwift";
+			};
+			name = Debug;
+		};
+		50E1229B1A39F3EB004B3D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreatSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreatSwift.app/FreatSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E122721A39F3EB004B3D5E /* Build configuration list for PBXProject "FreatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E122941A39F3EB004B3D5E /* Debug */,
+				50E122951A39F3EB004B3D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E122961A39F3EB004B3D5E /* Build configuration list for PBXNativeTarget "FreatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E122971A39F3EB004B3D5E /* Debug */,
+				50E122981A39F3EB004B3D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50E122991A39F3EB004B3D5E /* Build configuration list for PBXNativeTarget "FreatSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E1229A1A39F3EB004B3D5E /* Debug */,
+				50E1229B1A39F3EB004B3D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E1226F1A39F3EB004B3D5E /* Project object */;
+}
