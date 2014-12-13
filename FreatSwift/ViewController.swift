@@ -28,6 +28,11 @@ class ViewController: UIViewController {
             btn.tag = i + 1
             btn.addTarget(self, action:"pushPanel:" , forControlEvents: UIControlEvents.TouchUpInside)
             self.view.addSubview(btn);
+            
+            let flag = arc4random() % 2
+            if flag == 1 {
+                self.switchPanelColor(btn)
+            }
         }
     }
     
@@ -46,14 +51,25 @@ class ViewController: UIViewController {
             rightPanelTag = -1
         }
         
+        var isClear = true
+        
         for view in self.view.subviews {
-            if view is UIButton &&
-                (view.tag == leftPanelTag ||
-                view.tag == rightPanelTag ||
-                view.tag == topPanelTag ||
-                view.tag == bottomPanelTag) {
-                self.switchPanelColor(view as UIButton)
+            if view is UIButton {
+                if view.tag == leftPanelTag ||
+                    view.tag == rightPanelTag ||
+                    view.tag == topPanelTag ||
+                    view.tag == bottomPanelTag {
+                        self.switchPanelColor(view as UIButton)
+                }
+                
+                if view.backgroundColor == UIColor.yellowColor() {
+                    isClear = false
+                }
             }
+        }
+        
+        if isClear {
+            println("Clear!!")
         }
     }
     
@@ -64,12 +80,13 @@ class ViewController: UIViewController {
             btn.backgroundColor = UIColor.blackColor()
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    // hidden status bar
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
